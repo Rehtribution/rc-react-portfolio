@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* color theme tbd  */
+:root {
+  --font: rgb(227, 230, 235);
+  --font-2: rgb(211, 211, 211);
+  --bg: rgb(177, 167, 166);
+  --bg-1: rgb(186, 24, 27);
+  --first: rgb(164, 22, 26);
+  --second: rgb(22, 26, 29);
+  --third: rgb(11, 9, 10);
+  
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  --transitions: all 400ms ease;
+}
+
+/* scrolling ability  */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--bg);
+  color: var(--font);
+  line-height: 1.7;
+  /* background-image: TBD;  */
+
+}
+
+/* ====================== GENERAL STYLES ======================  */
+
+.container {
+  width: var(--container-width-lg);
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+/* components will be wrapped in section */
+section {
+  margin-top: 8rem;
+}
+
+section > h2, section > h5 {
+  text-align: center;
+  color: var(--font-2);
+}
+
+a {
+  color: var(--first);
+  transition: var(--transitions);
+}
+
+a:hover {
+  color: var(--second);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--first);
+  transition: var(--transitions);
+}
+
+.btn:hover {
+  background: var(--bg-1);
+  color: var(--font-2);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--first);
+  color: var(--bg);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/* ====================== MEDIA QUERIES ====================== */
+/* ====================== MEDIUM ====================== */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+  
+  section {
+    margin-top: 6rem;
+  }
+}
+/* ====================== MOBILE ====================== */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+  
+  section > h2 {
+    margin-bottom: 6rem;
+  }
+}
