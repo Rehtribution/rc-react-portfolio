@@ -1,11 +1,9 @@
 import React from 'react'
 
-const Container = () => {
+const Resume = () => {
   return (
-    <div>
-      CONTAINER
-    </div>
+    <section id='resume'>RESUME</section>
   )
 }
 
-export default Container
+export default Resume

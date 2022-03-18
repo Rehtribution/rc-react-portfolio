@@ -28,12 +28,7 @@ header {
 }
 
 
-.scroll_down {
-    position: absolute;
-    right: 1rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-}
+
 
 /* ====================== MEDIA QUERIES ====================== */
 /* ====================== MEDIUM ====================== */

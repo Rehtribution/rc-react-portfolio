@@ -6,21 +6,22 @@ import './header.css'
 const Header = () => {
   return (
     <header>
+      {/* name and title. brief intro? */}
       <div className="container header_container"></div>
       <h1>Reht</h1>
       <h5>Fullstack Developer</h5>
 
+      {/* self pic */}
       <div className="Reht">
         <img src={Headshot} alt="Reht Cavazos headshot" />
       </div>
 
+      {/* buttons to download resume or open contact form  */}
       <div className="contact-buttons">
         <a href={Resume} download className='btn'>Resume</a>
         <a href='#contact'className='btn btn-primary'>Contact</a>
       </div> 
 
-{/* not sure about keeping this. neat little flair */}
-      <a href='#contact' className='scroll_down'>SIDE TEXT</a>
     </header>
   )
 }
