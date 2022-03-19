@@ -100,7 +100,29 @@ img {
   object-fit: cover;
 }
 
-/* consolidate button codes and uniform */
+
+/* .btn {
+  background: var(--first);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+}
+
+.btn:hover {
+  background: var(--bg-1);
+  color: var(--font-2);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--first);
+  color: var(--bg);
+} */
 button {
   background: var(--first);
   border: 0;
@@ -113,23 +135,13 @@ button {
   padding: 10px 15px;
 }
 
-.btn {
-  width: max-content;
-  display: inline-block;
-  padding: 0.75rem 1.2rem;
-  border-radius: 0.4rem;
-  cursor: pointer;
-  border: 1px solid var(--first);
-  transition: var(--transitions);
-}
-
-.btn:hover {
+button:hover {
   background: var(--bg-1);
   color: var(--font-2);
   border-color: transparent;
 }
 
-.btn-primary {
+button-primary {
   background: var(--first);
   color: var(--bg);
 }
