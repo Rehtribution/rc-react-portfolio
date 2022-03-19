@@ -17,8 +17,7 @@ nav div {
     align-items: center;
 }
 
-
-nav div a:active {
+.active {
     background: white;
     color: black;
 }

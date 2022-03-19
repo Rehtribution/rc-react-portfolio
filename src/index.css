@@ -90,6 +90,10 @@ a:hover {
   color: var(--second);
 }
 
+a:active {
+  color: green;
+}
+
 .btn {
   width: max-content;
   display: inline-block;

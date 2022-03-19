@@ -1,17 +1,23 @@
-import React from "react";
+import React from 'react';
 import "./navigation.css";
-import { useState } from "react";
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
-// use icons? buttons?
+import { useState } from 'react';
+
 const Navigation = () => {
+
   const [active, setActive] = useState("#");
+
   return (
     <nav>
       <div>
         {/* content anchors */}
-        <a href="/" onClick={() => setActive("/")} className={active === "/" ? "active" : ""}>
+        <a href="#" 
+        onClick={() => setActive("#")} 
+        className={active === "#" ? "active" : ""}>
           home
         </a>
+        
         <a href="#about" onClick={() => setActive("#about")} className={active === "#about" ? "active" : ""}>
           about
         </a>
