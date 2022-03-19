@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
-  return (
-    <div>
-      ABOUT
-    </div>
-  )
-}
+  return <section id="about">ABOUT</section>;
+};
 
-export default About
+export default About;

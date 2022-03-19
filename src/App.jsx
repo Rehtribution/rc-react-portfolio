@@ -1,17 +1,15 @@
-import React from 'react';
+import React from "react";
 // import logo from './logo.svg';
 
-import './App.css';
+import "./App.css";
 
-import Header from './components/Header/Header'
-import Navigation from './components/Navigation/Navigation'
-import About from './components/About/About'
-import Portfolio from './components/Portfolio/Portfolio'
-import Resume from './components/Resume/Resume'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
-
-
+import Header from "./components/Header/Header";
+import Navigation from "./components/Navigation/Navigation";
+import About from "./components/About/About";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Resume from "./components/Resume/Resume";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -23,11 +21,11 @@ function App() {
       <Resume />
       <Contact />
       <Footer />
-
     </div>
   );
 }
 
 export default App;
 
+// react spinny logo 
 /* <header className="App-header"><img src={logo} className="App-logo" alt="logo" /></header> */

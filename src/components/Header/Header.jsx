@@ -18,8 +18,8 @@ const Header = () => {
 
       {/* buttons to download resume or open contact form  */}
       <div className="contact-buttons">
-        <a href={Resume} download className='btn'>Resume</a>
-        <a href='#contact'className='btn btn-primary'>Contact</a>
+        <a href={Resume} download className='btn'>Download Resume</a>
+        <a href='#contact'className='btn btn-primary'>Contact Me</a>
       </div> 
 
     </header>

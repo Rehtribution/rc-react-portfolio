@@ -1,16 +1,7 @@
-/* nav {
-    background: black;
-    margin-top: 2rem;
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-} */
-
 nav {
     display: flex;
     flex-direction: column;
     position: relative;
-   
 }
 
 nav a {
@@ -18,6 +9,7 @@ nav a {
 }
 
 nav div {
+    background: black;
     position: fixed;
     transform: rotate(90deg);
     top: 280px;
@@ -25,9 +17,8 @@ nav div {
     align-items: center;
 }
 
-.scroll_down {
-    position: absolute;
-    right: 1rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
+
+nav div a:active {
+    background: white;
+    color: black;
 }

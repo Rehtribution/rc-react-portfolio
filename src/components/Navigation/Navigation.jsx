@@ -1,25 +1,35 @@
-import React from 'react';
-import './navigation.css'
-import HomeIcon from '@mui/icons-material/Home';
+import React from "react";
+import "./navigation.css";
+import { useState } from "react";
 
 // use icons? buttons?
 const Navigation = () => {
-    return (
-        <nav className='scroll-down'>
-            <div>
-                {/* content anchors */}
-                <HomeIcon />
-                <a href='#'>home</a>
-                
-                <a href='#about'>about</a>
-                <a href='#portfolio'>portfolio</a>
+  const [active, setActive] = useState("#");
+  return (
+    <nav>
+      <div>
+        {/* content anchors */}
+        <a href="/" onClick={() => setActive("/")} className={active === "/" ? "active" : ""}>
+          home
+        </a>
+        <a href="#about" onClick={() => setActive("#about")} className={active === "#about" ? "active" : ""}>
+          about
+        </a>
+        <a
+          href="#portfolio"
+          onClick={() => setActive("#portfolio")} className={active === "#portfolio" ? "active" : ""}
+        >
+          portfolio
+        </a>
+        <a href="#resume" onClick={() => setActive("#resume")} className={active === "#resume" ? "active" : ""}>
+          resume
+        </a>
+        <a href="#contact" onClick={() => setActive("#contact")} className={active === "#contact" ? "active" : ""}>
+          contact
+        </a>
+      </div>
+    </nav>
+  );
+};
 
-                {/* connected resume */}
-                <a href='#resume'>resume</a>
-                <a href='#contact'>contact</a>
-            </div>
-        </nav>
-    )
-}
-export default Navigation
-
+export default Navigation;
