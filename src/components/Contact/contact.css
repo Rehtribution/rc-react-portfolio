@@ -1,0 +1,19 @@
+contact-form {
+    display: flex;
+    width: 40%;
+    position: relative;
+    justify-content: center;
+  }
+
+  input,
+  textarea {
+    width: 40%;
+    font-size: 2rem;
+    padding: 1.2rem;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }

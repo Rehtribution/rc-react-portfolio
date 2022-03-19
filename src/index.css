@@ -71,16 +71,6 @@ h1 {
   font-size: 2.5rem;
 }
 
-/* components will be wrapped in section */
-section {
-  margin-top: 8rem;
-}
-
-section > h2, section > h5 {
-  text-align: center;
-  color: var(--font-2);
-}
-
 a {
   color: var(--first);
   transition: var(--transitions);
@@ -92,6 +82,35 @@ a:hover {
 
 a:active {
   color: green;
+}
+
+/* components will be wrapped in section */
+section {
+  margin-top: 8rem;
+}
+
+section > h2, section > h5 {
+  text-align: center;
+  color: var(--font-2);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* consolidate button codes and uniform */
+button {
+  background: var(--first);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
 }
 
 .btn {
@@ -113,12 +132,6 @@ a:active {
 .btn-primary {
   background: var(--first);
   color: var(--bg);
-}
-
-img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
 }
 
 
