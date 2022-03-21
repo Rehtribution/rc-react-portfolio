@@ -4,9 +4,9 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Footer = () => {
   return (
-    <div>
-      FOOTER
-      <div>
+    <footer>
+      <div className="center">
+        <p className="left">Left</p> 
         <a
           href="https://github.com/Rehtribution"
           target="_blank"
@@ -22,7 +22,7 @@ const Footer = () => {
           <LinkedInIcon />
         </a>
       </div>
-    </div>
+    </footer>
   );
 };
 

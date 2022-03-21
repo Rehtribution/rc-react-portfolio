@@ -7,7 +7,6 @@ const Header = () => {
   return (
     <header>
       {/* name and title. brief intro? */}
-      <div className="container header_container"></div>
       <h1>Reht</h1>
       <h5>Fullstack Developer</h5>
 
