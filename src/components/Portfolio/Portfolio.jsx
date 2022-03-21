@@ -1,28 +1,83 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import "./portfolio.css";
+import first from "../../assets/first.png";
+import second from "../../assets/second.png";
 
-
-const breakPoints = [
-  { width: 1, items: 1 },
-  { width: 1, items: 2 },
-  { width: 1, items: 3 },
-  { width: 1, items: 4 },
-  { width: 1, items: 5 },
-  { width: 1, items: 6 }
-];
 
 const Portfolio = () => {
-  return <section id="portfolio">PORTFOLIO
-    <Carousel breakPoints={breakPoints}>
-      <div className="item">one</div>
-      <div className="item">two</div>
-      <div className="item">three</div>
-      <div className="item">four</div>
-      <div className="item">five</div>
-      <div className="item">six</div>
-    </Carousel>
-  </section>;
+  return (
+    <section id="portfolio">
+      PORTFOLIO
+      <Carousel>
+        <article className="item">
+          <a
+            href="https://github.com/Rehtribution?tab=repositories&q=&type=&language=&sort=stargazers"
+            className=""
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={first} alt="placeholder 1" />
+          </a>
+        </article>
+
+        <article className="item">
+          <a
+            href="https://github.com/Rehtribution?tab=repositories&q=&type=&language=&sort=stargazers"
+            className="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={second} alt="placeholder 1" />
+          </a>
+        </article>
+
+        <article className="item">
+          <a
+            href="https://github.com/Rehtribution?tab=repositories&q=&type=&language=&sort=stargazers"
+            className="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={second} alt="placeholder 1" />
+          </a>
+        </article>
+
+        <article className="item">
+          <a
+            href="https://github.com/Rehtribution?tab=repositories&q=&type=&language=&sort=stargazers"
+            className="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={second} alt="placeholder 1" />
+          </a>
+        </article>
+
+        <article className="item">
+          <a
+            href="https://github.com/Rehtribution?tab=repositories&q=&type=&language=&sort=stargazers"
+            className="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={second} alt="placeholder 1" />
+          </a>
+        </article>
+
+        <article className="item">
+          <a
+            href="https://github.com/Rehtribution?tab=repositories&q=&type=&language=&sort=stargazers"
+            className="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={second} alt="placeholder 1" />
+          </a>
+        </article>
+      </Carousel>
+    </section>
+  );
 };
 
 export default Portfolio;
