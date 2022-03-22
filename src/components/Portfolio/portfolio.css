@@ -10,6 +10,10 @@ article {
     font-size: 4em;
 }
 
+hr {
+    border-top: 2px dotted #3f51b5;
+  }
+  
 .item:hover {
     border-color: black;
     background: transparent;
