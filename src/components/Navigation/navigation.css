@@ -1,20 +1,23 @@
-nav {
+ nav {
     display: flex;
     flex-direction: column;
-    position: relative;
-}
-
-nav a {
-    margin:30px;
+    float: right;
+    padding-right: 100px;
 }
 
 nav div {
-    background: black;
+    z-index: 1;
     position: fixed;
-    transform: rotate(90deg);
-    top: 280px;
-    right: -250px;
-    align-items: center;
+    border-radius: 25px;
+    background: var(--bg-1);
+}
+
+nav a {
+    margin:3px;
+    display: block;
+    height: auto;
+    padding: 2px;
+    border-radius: 25px;
 }
 
 .active {

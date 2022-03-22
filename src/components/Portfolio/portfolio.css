@@ -15,3 +15,6 @@ article {
     background: transparent;
 }
 
+.btn:hover {
+    border-color: transparent;
+}

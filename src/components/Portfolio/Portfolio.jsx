@@ -13,7 +13,7 @@ const Portfolio = () => {
         <article className="item">
           <a
             href="https://github.com/Rehtribution?tab=repositories&q=&type=&language=&sort=stargazers"
-            className=""
+            className="btn"
             target="_blank"
             rel="noopener noreferrer"
           >

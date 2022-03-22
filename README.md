@@ -76,14 +76,15 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - Heroku
 - NPM
   - Express
+  - react-elastic-carousel
   - bcrypt
 
 ## Installation-Requirements
 
 - NPM
   - Express
+  - react-elastic-carousel
   - bcrypt
-
 
 
 ## Authors
