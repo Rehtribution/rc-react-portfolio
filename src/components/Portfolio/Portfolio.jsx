@@ -24,7 +24,7 @@ const Portfolio = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={batman} alt="Fun html portfolio example image" />
+            <img src={batman} alt="Fun html portfolio example" />
           </a>
         </article>
 
@@ -35,7 +35,7 @@ const Portfolio = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={pass} alt="Password generator homepage image" />
+            <img src={pass} alt="Password generator homepage" />
           </a>
         </article>
 
@@ -46,7 +46,7 @@ const Portfolio = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={quiz} alt="Javascript quiz homepage image" />
+            <img src={quiz} alt="Javascript quiz homepage" />
           </a>
         </article>
 
@@ -57,7 +57,7 @@ const Portfolio = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={dunder} alt="Team generator app example image" />
+            <img src={dunder} alt="Team generator app example" />
           </a>
         </article>
 
@@ -68,7 +68,7 @@ const Portfolio = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={budget} alt="Budget tracker app example image" />
+            <img src={budget} alt="Budget tracker app example" />
           </a>
         </article>
 
@@ -79,7 +79,7 @@ const Portfolio = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={tutorial} alt="Gist Regex tutorial image" />
+            <img src={tutorial} alt="Gist Regex tutorial" />
           </a>
         </article>
       </Carousel>
