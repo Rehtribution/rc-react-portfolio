@@ -4,12 +4,11 @@
 
 - [Media](#screenshot/media)
 
-- [Usage](#usage)
-
 - [Built With](#built-with)
 
 - [Installation-Requirements](#installation-requirements)
 
+- [Links](#links)
 
 - [Authors](#authors)
 
@@ -60,10 +59,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Deployed Link
 
 
-## Usage
-
-
-
 ## Built With
 
 - HTML
@@ -74,16 +69,21 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - Heroku
 - NPM
   - Express
+  - react-pdf
   - react-elastic-carousel
 
 ## Installation-Requirements
-
-- NPM
+- NPM i
   - Express
+  - react-pdf
   - react-elastic-carousel
-
 
 ## Authors
 
 [![GitHub Portfolio -> - Rehtribution](https://img.shields.io/badge/GitHub_Portfolio_-->-Rehtribution-darkred?style=for-the-badge)](https://github.com/Rehtribution)
 
+
+## Links
+
+For PDF on page rendering
+[https://levelup.gitconnected.com/displaying-pdf-in-react-app-6e9d1fffa1a9]

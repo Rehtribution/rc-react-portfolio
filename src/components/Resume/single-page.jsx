@@ -1,7 +1,9 @@
 // required code for npm package to render pdf file 
+// sourced from (https://levelup.gitconnected.com/displaying-pdf-in-react-app-6e9d1fffa1a9)
 
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf";
+import "./resume.css"
 
 export default function SinglePage(props) {
   const [numPages, setNumPages] = useState(null);
@@ -35,7 +37,7 @@ export default function SinglePage(props) {
       >
         <Page pageNumber={pageNumber} />
       </Document>
-      <div>
+      <div className="pdf-button-pos">
         <p>
           Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
         </p>

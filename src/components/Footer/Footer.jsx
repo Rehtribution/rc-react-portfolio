@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <footer>
       <div className="center">
-        <p className="left">Left</p> 
         <a
           href="https://github.com/Rehtribution"
           target="_blank"
