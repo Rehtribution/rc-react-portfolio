@@ -49,11 +49,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Screenshot/Media
 
-<h3 align="center">Login</h3>
+![Screenshot](https://user-images.githubusercontent.com/92597876/160336289-44707e0f-9f54-418f-8fee-037286c9e6bf.png)
 
-<h3 align="center">Signup</h3>
-
-<h3 align="center">Responsive Layout</h3>
 
 
 ## Deployed Link
