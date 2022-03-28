@@ -1,9 +1,9 @@
-// required code for npm package to render pdf file 
+// required code for npm package to render pdf file
 // sourced from (https://levelup.gitconnected.com/displaying-pdf-in-react-app-6e9d1fffa1a9)
 
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf";
-import "./resume.css"
+import "./resume.css";
 
 export default function SinglePage(props) {
   const [numPages, setNumPages] = useState(null);
@@ -15,7 +15,7 @@ export default function SinglePage(props) {
   }
 
   function changePage(offset) {
-    setPageNumber(prevPageNumber => prevPageNumber + offset);
+    setPageNumber((prevPageNumber) => prevPageNumber + offset);
   }
 
   function previousPage() {
@@ -29,29 +29,35 @@ export default function SinglePage(props) {
   const { pdf } = props;
 
   return (
-    <>
-      <Document
-        file={pdf}
-        options={{ workerSrc: "/pdf.worker.js" }}
-        onLoadSuccess={onDocumentLoadSuccess}
-      >
-        <Page pageNumber={pageNumber} />
-      </Document>
-      <div className="pdf-button-pos">
-        <p>
-          Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
-        </p>
-        <button type="button" disabled={pageNumber <= 1} onClick={previousPage}>
-          Previous
-        </button>
-        <button
-          type="button"
-          disabled={pageNumber >= numPages}
-          onClick={nextPage}
+    <section id="resume">
+      <div className="resume-container">
+        <Document
+          file={pdf}
+          options={{ workerSrc: "/pdf.worker.js" }}
+          onLoadSuccess={onDocumentLoadSuccess}
         >
-          Next
-        </button>
+          <Page pageNumber={pageNumber} />
+        </Document>
+        <div className="pdf-button-pos">
+          <p>
+            Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
+          </p>
+          <button
+            type="button"
+            disabled={pageNumber <= 1}
+            onClick={previousPage}
+          >
+            Previous
+          </button>
+          <button
+            type="button"
+            disabled={pageNumber >= numPages}
+            onClick={nextPage}
+          >
+            Next
+          </button>
+        </div>
       </div>
-    </>
+    </section>
   );
 }

@@ -3,14 +3,14 @@ import "./resume.css";
 import SinglePagePDFViewer from "./single-page";
 import samplePDF from "../../assets/Resume.pdf";
 
-export default function App() {
+export default function Resume() {
   return (
-    <div className="App">
-      <h4>Single Page</h4>
+    <section className="resume">
+      <h1>Resume</h1>
       <div className="pdf-page">
       <SinglePagePDFViewer pdf={samplePDF} />
       </div>
       <hr />
-    </div>
+    </section>
   );
 }
