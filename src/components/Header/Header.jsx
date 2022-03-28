@@ -1,6 +1,6 @@
 import React from "react";
 import Resume from "../../assets/Resume.pdf";
-import Headshot from "../../assets/headshot.png";
+// import Headshot from "../../assets/headshot.png";
 import "./header.css";
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
       <h2>Fullstack Web Developer</h2>
       {/* self pic */}
       <div className="Reht">
-        <img src={Headshot} alt="Reht Cavazos headshot" />
+        {/* <img src={Headshot} alt="Reht Cavazos headshot" /> */}
       </div>
       {/* buttons to download resume or open contact form  */}
       <div className="contact-buttons">
