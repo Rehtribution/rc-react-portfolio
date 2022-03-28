@@ -13,35 +13,35 @@ const Navigation = () => {
           onClick={() => setActive("#")}
           className={active === "#" ? "active" : ""}
         >
-          home
+          Home
         </a>
         <a
           href="#about"
           onClick={() => setActive("#about")}
           className={active === "#about" ? "active" : ""}
         >
-          about
+          About
         </a>
         <a
           href="#portfolio"
           onClick={() => setActive("#portfolio")}
           className={active === "#portfolio" ? "active" : ""}
         >
-          portfolio
+          Portfolio
         </a>
         <a
           href="#resume"
           onClick={() => setActive("#resume")}
           className={active === "#resume" ? "active" : ""}
         >
-          resume
+          Resume
         </a>
         <a
           href="#contact"
           onClick={() => setActive("#contact")}
           className={active === "#contact" ? "active" : ""}
         >
-          contact
+          Contact
         </a>
       </div>
     </nav>
