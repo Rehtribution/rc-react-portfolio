@@ -2,6 +2,10 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.x"
+    "npm": "6.x"
+  },
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
@@ -54,5 +58,6 @@
   "bugs": {
     "url": "https://github.com/Rehtribution/rc-react-portfolio/issues"
   },
-  "homepage": "https://github.com/Rehtribution/rc-react-portfolio#readme"
+  "homepage": "https://github.com/Rehtribution/rc-react-portfolio#readme",
+  "devDependencies": {}
 }
