@@ -13,7 +13,6 @@ nav div {
 }
 
 nav a {
-    color: var(--font);
     margin:3px;
     display: block;
     height: auto;

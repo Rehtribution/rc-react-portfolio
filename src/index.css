@@ -11,13 +11,13 @@
 
 /* color theme tbd  */
 :root {
-  --font: rgb(151, 157, 172);
-  --font-2: rgb(92, 103, 125);
-  --bg: rgb(28, 53, 94);
-  --bg-1: rgb(54, 74, 104);
-  --first: rgb(41, 64, 99);
-  --second: rgb(67, 85, 109);
-  --third: rgb(80, 95, 114);
+  --font: rgb(227, 230, 235);
+  --font-2: rgb(211, 211, 211);
+  --bg: rgb(177, 167, 166);
+  --bg-1: rgb(186, 24, 27);
+  --first: rgb(164, 22, 26);
+  --second: rgb(22, 26, 29);
+  --third: rgb(11, 9, 10);
   
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -81,12 +81,12 @@ a:hover {
 }
 
 a:active {
-  color: whitesmoke;
+  color: green;
 }
 
 /* components will be wrapped in section */
 section {
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 
 section > h2, section > h5 {
@@ -104,7 +104,7 @@ button {
   background: var(--first);
   border: 0;
   border-radius: 5px;
-  color: var(--font);
+  color: #fff;
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;

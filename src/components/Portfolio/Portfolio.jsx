@@ -15,9 +15,7 @@ import tutorial from "../../assets/tutorial.png";
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h1>
-      Portfolio
-      </h1>
+      PORTFOLIO
       <Carousel>
         <article className="item">
           <a

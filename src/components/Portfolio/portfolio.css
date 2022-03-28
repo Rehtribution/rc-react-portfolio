@@ -13,12 +13,7 @@ article {
 hr {
     border-top: 2px dotted #3f51b5;
   }
-
-#portfolio {
-    margin-bottom: 14rem;
-    font-size: large;
-}
-
+  
 .item:hover {
     border-color: black;
     background: transparent;
