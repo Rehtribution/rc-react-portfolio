@@ -1,6 +1,6 @@
 import React from "react";
 import Resume from "../../assets/Resume.pdf";
-// import Headshot from "../../assets/headshot.png";
+import Headshot from "../src/assets/headshot.png";
 import "./header.css";
 
 const Header = () => {
@@ -11,7 +11,8 @@ const Header = () => {
       {/* self pic */}
       <div className="Reht">
         <img
-          src={require("../../assets/headshot.png")}
+          // src={require("../../assets/headshot.png")}
+          src={Headshot}
           alt="Reht Cavazos headshot"
         />
       </div>
