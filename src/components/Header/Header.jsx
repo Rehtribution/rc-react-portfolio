@@ -10,7 +10,10 @@ const Header = () => {
       <h2>Fullstack Web Developer</h2>
       {/* self pic */}
       <div className="Reht">
-        {/* <img src={Headshot} alt="Reht Cavazos headshot" /> */}
+        <img
+          src={require("../../assets/headshot.png")}
+          alt="Reht Cavazos headshot"
+        />
       </div>
       {/* buttons to download resume or open contact form  */}
       <div className="contact-buttons">
