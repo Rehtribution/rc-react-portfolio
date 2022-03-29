@@ -1,6 +1,6 @@
 import React from "react";
 import Resume from "../../assets/Resume.pdf";
-import Headshot from "../src/assets/headshot.png";
+import Headshot from "../../assets/picture.png";
 import "./header.css";
 
 const Header = () => {
