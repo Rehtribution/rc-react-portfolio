@@ -74,6 +74,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Installation-Requirements
 - NPM i
+  - react@17.0.2
   - Express
   - react-pdf
   - react-elastic-carousel
