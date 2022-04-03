@@ -55,6 +55,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Deployed Link
 
+[![HEROKU - CLICK HERE](https://img.shields.io/badge/HEROKU-CLICK_HERE-darkgreen?style=for-the-badge)](https://reht-reacts.herokuapp.com/)
+
+
 
 ## Built With
 
