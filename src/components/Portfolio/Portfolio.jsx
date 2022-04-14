@@ -4,6 +4,7 @@ import "./portfolio.css";
 
 // importing Portfolio images 
 // import placeholder from "../../assets/placeholder.png";
+import fightme from "../../assets/fightmeIRL.png";
 import batman from "../../assets/html-portfolio.png";
 import pass from "../../assets/pass-gen.png";
 import quiz from "../../assets/code-quiz.png";
@@ -19,6 +20,17 @@ const Portfolio = () => {
       Portfolio
       </h1>
       <Carousel>
+        <article className="item">
+          <a
+            href="https://fight-me-irl.herokuapp.com/"
+            className="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={fightme} alt="MERN stack app Fight Me IRL" />
+          </a>
+        </article>
+
         <article className="item">
           <a
             href="https://rehtribution.github.io/2-portfolio/"
