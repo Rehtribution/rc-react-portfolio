@@ -37,9 +37,9 @@ const Navigation = () => {
           Resume
         </a>
         <a
-          href="#contact"
-          onClick={() => setActive("#contact")}
-          className={active === "#contact" ? "active" : ""}
+          href="#footer"
+          onClick={() => setActive("#footer")}
+          className={active === "#footer" ? "active" : ""}
         >
           Contact
         </a>

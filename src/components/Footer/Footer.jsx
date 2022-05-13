@@ -1,11 +1,12 @@
 import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
+      <h1>Contact me</h1>
+      <h2>Follow me on GitHub or reach out to me on LinkedIn!</h2>
       <div className="center">
         <a
           href="https://github.com/Rehtribution"
@@ -19,14 +20,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <LinkedInIcon fontSize="large" color="primary"/>
-        </a>
-        <a
-          href="https://www.youtube.com/channel/UCN-iKuioUO44apiCdmrGcsg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <YouTubeIcon fontSize="large" color="primary"/>
+          <LinkedInIcon fontSize="large" color="primary" />
         </a>
       </div>
     </footer>
