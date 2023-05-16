@@ -4,12 +4,12 @@ import "./portfolio.css";
 
 // importing Portfolio images 
 // import placeholder from "../../assets/placeholder.png";
-import fightme from "../../assets/fightmeIRL.png";
+// import fightme from "../../assets/fightmeIRL.png";
 import batman from "../../assets/html-portfolio.png";
 import pass from "../../assets/pass-gen.png";
 import quiz from "../../assets/code-quiz.png";
 import dunder from "../../assets/dunder.png";
-import budget from "../../assets/budget-this.png";
+// import budget from "../../assets/budget-this.png";
 import tutorial from "../../assets/tutorial.png";
 
 //todo: edit sizes to fit slides
@@ -20,7 +20,7 @@ const Portfolio = () => {
       Portfolio
       </h1>
       <Carousel>
-        <article className="item">
+        {/* <article className="item">
           <a
             href="https://fight-me-irl.herokuapp.com/"
             className="btn"
@@ -29,7 +29,7 @@ const Portfolio = () => {
           >
             <img src={fightme} alt="MERN stack app Fight Me IRL" />
           </a>
-        </article>
+        </article> */}
 
         <article className="item">
           <a
@@ -75,7 +75,7 @@ const Portfolio = () => {
           </a>
         </article>
 
-        <article className="item">
+        {/* <article className="item">
           <a
             href="https://budget--this.herokuapp.com/"
             className="btn"
@@ -84,7 +84,7 @@ const Portfolio = () => {
           >
             <img src={budget} alt="Budget tracker app example" />
           </a>
-        </article>
+        </article> */}
 
         <article className="item">
           <a
