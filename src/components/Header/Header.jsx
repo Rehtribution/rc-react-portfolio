@@ -19,11 +19,11 @@ const Header = () => {
       {/* buttons to download resume or open contact form  */}
       <div className="contact-buttons">
         <a href={Resume} download className="btn">
-          Download Resume
+          Download Resume PDF
         </a>
-        <a href="#contact" className="btn btn-primary">
+        {/* <a href="#contact" className="btn btn-primary">
           Contact Me
-        </a>
+        </a> */}
       </div>
     </header>
   );
